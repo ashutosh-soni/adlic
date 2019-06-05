@@ -3,5 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name ""
             :url ""}
-  :dependencies [[org.clojure/clojure "1.10.0"]]
+  :dependencies [[org.clojure/clojure "1.10.0"]
+                 [clj-http "3.9.1"]
+                 [cheshire "5.8.1"]]
   :repl-options {:init-ns adlic.core})
